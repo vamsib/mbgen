@@ -1,0 +1,2 @@
+# mbgen
+Mountebank stubs generator
