@@ -1,0 +1,28 @@
+{
+  "name": "mbgen",
+  "version": "1.0.0",
+  "description": "Mountebank stubs generator",
+  "main": "index.js",
+  "bin": {
+    "mbgen": "./bin/mbgen.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsib/mbgen.git"
+  },
+  "author": "Vamsidhar Bethanabatla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vamsib/mbgen/issues"
+  },
+  "homepage": "https://github.com/vamsib/mbgen#readme",
+  "dependencies": {
+    "plop": "^2.6.0"
+  },
+  "peerDependencies": {
+    "mountebank": "^2.2.1"
+  }
+}

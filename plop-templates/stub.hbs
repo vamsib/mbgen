@@ -1,0 +1,21 @@
+{
+  "predicates": [
+    {
+      "equals": {
+        "path": "{{endpoint}}",
+        "method": "{{method}}"
+      }
+    }
+  ],
+  "responses": [
+    {
+      "is": {
+        "statusCode": {{responseCode}},
+        "headers": {
+          "Content-type": "application/json"
+        },
+        "body": <% include response.ejs %>
+      }
+    }
+  ]
+}
