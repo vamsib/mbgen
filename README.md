@@ -2,11 +2,11 @@ Mountebank is a great tool that allows us to mock services using different proto
 
 ### Installing
 ```
-npm i --save-dev mbgen
+npm i -D mbgen
 ```
 You'll also need to install Mountebank.
 ```
-npm i --save mountebank
+npm i mountebank
 ```
 ## Built With
 
