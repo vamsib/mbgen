@@ -14,7 +14,7 @@ npm i mountebank
 ```
 ### Usage
 
-Initialize imposters.ejs file and stubs folder for Mountebank:
+Initialize `imposters.ejs` file and `stubs` folder for Mountebank:
 
 ```npx mbgen init```
 
