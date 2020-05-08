@@ -28,6 +28,18 @@ Generate stubs for scenarios in a microservice:
 
 Each scenario has a directory created for it in the specified microservice. The scenario directory will have `ejs` stubs with boiler-plate code which you can edit.
 
+Add the following to your `package.json` scripts:
+
+```
+{
+  "scripts": {
+    "start": "mb --configfile imposters.ejs"
+  }
+}
+```
+
+Modify your stubs and run `npm start` to start the Mountebank service
+
 ## Built With
 
 * [Plop](https://plopjs.com/)
